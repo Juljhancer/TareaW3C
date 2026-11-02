@@ -32,6 +32,15 @@ body {
 .a {
     color: rgb(8, 8, 8);
     text-align: center;
+    display: inline-block;
+    padding: 6px 10px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
 }
 
 .h1 {
@@ -58,6 +67,13 @@ body {
 .ul {
     color: rgb(2, 2, 2);
     font-family: 'Courier New', Courier, monospace;
+}
+
+.botones {
+    min-width: 24px;
+    min-height: 24px;
+    padding: 8px 12px;
+    display: inline-block;
 }
 
 @media screen and (max-width: 320px) {

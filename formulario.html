@@ -8,21 +8,22 @@
 </head>
 
 <body>
-    <form name=" datos">
-        <label> Numero: <input type="number" class="label" placeholder="Ingrese un numero(0-9)"></label><br>
-        <label> E-mail: <input type="email" class="label" placeholder="Ingrese el correo"> </label><br>
-        <label>Nombre: <input type="text" class="label" placeholder="ejemplo:Juan"></label><br>
-        <label>Apellido: <input type="text" class="label" placeholder="ejemplo: Tandazo"></label><br>
-        <label>Fecha de Nacimiento:<input type="date" class=" label"></label><br>
-        <label>Pagina Web:<input type="url" class="label" placeholder="link: https://practica.com"></label><br>
+    <form name=" datos" onsubmit="alert('Formulario enviado'); return false;">
+        <label> Numero: <input type="number" class="label" placeholder="Ingrese un numero(0-9)" required></label><br>
+        <label> E-mail: <input type="email" class="label" placeholder="Ingrese el correo" required> </label><br>
+        <label>Nombre: <input type="text" class="label" placeholder="ejemplo:Juan" required></label><br>
+        <label>Apellido: <input type="text" class="label" placeholder="ejemplo: Tandazo" required></label><br>
+        <label>Fecha de Nacimiento:<input type="date" class=" label" required></label><br>
+        <label>Pagina Web:<input type="url" class="label" placeholder="link: https://practica.com" required></label><br>
         <label class="a"> Que estandares conoces?
         </label><br>
         <label><input type="checkbox" value="HTML5"> HTML5</label><br>
         <label><input type="checkbox" value="CSS3"> CSS3</label><br>
         <label><input type="checkbox" value="JavaScrip"> JavaScrip</label><br>
-        <label> Informacion <textarea cols="15" rows="8" class="label"
-                placeholder="ingrese su informacion"> </textarea></label><br>
-        <input type="button" value="Enviar la informacion">
+        <label> Informacion <textarea cols="15" rows="8" class="label" placeholder="ingrese su informacion"
+                required> </textarea></label><br>
+        <input type="submit" class="botones" value="Enviar la información">
+
     </form>
     <ul>
         <li>Juljhancer Javier Cañarte Lozano</li>
