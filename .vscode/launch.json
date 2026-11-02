@@ -7,8 +7,8 @@
         {
             "type": "firefox",
             "request": "launch",
-            "name": "Open Inicio.HTML",
-            "file": "c:\\Users\\COMPUTEACH\\Downloads\\Universidad\\Semestre3\\Desarollo\\TareaW3C\\Inicio.HTML"
+            "name": "Open index.html",
+            "file": "c:\\Users\\COMPUTEACH\\Downloads\\Universidad\\Semestre3\\Desarollo\\TareaW3C\\index.html"
         }
     ]
 }
