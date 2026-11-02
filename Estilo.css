@@ -1,24 +1,71 @@
 body {
     background-color: rgb(247, 248, 243);
 }
+
 .Contenedor {
     display: grid;
     grid-template-rows: auto auto 300px auto;
     min-height: 100vh;
 }
-.contenido{
-    display:grid;
+
+.contenido {
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.ca{
+
+.ca {
     background-color: brown;
 }
-.Me{
+
+.Me {
     background-color: chocolate;
 }
-.li{
-    background-color:rgb(125, 139, 0);
+
+.li {
+    background-color: rgb(125, 139, 0);
 }
-.patas{
-    background-color:hotpink;
+
+.patas {
+    background-color: hotpink;
+}
+
+.a {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.h1 {
+    color: rgb(246, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2 {
+    color: rgb(48, 29, 107);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.h3 {
+    color: rgb(227, 231, 227);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ol {
+    color: rgb(7, 7, 7);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ul {
+    color: rgb(2, 2, 2);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 320px) {
+    .contenido {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 5px;
+    }
 }
