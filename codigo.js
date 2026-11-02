@@ -9,4 +9,9 @@ var letraSeleccionada ='c';
         return p1*p2;
     }
     document.getElementById("demo").innerHTML = multiplicar(4,3);
-    
+    document.addEventListener("DOMContentLoaded", function() {
+        const boton = document.getElementById("Boton");
+        boton.addEventListener("click", function() {
+            alert("Gracias por hacerlo");
+        }); 
+    });
