@@ -8,7 +8,7 @@
             "type": "firefox",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\COMPUTEACH\\Downloads\\Universidad\\Semestre3\\Desarollo\\TareaW3C\\inde"
+            "file": "c:\\Users\\COMPUTEACH\\Downloads\\Universidad\\Semestre3\\Desarollo\\TareaW3C\\index.html"
         }
     ]
 }
