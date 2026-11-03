@@ -1,5 +1,6 @@
 //Juljhancer Javier cañarte Lozano 
-//Edgar Samuel Tandazo Briones
+//Neicer Paul Gilces Loor
+//Erick Daniel Arguello Cedeño
 /* Estamos aprendiendo sobre los comentarios en javascript y para posteriromente poder hacer funciones y mas cosas 
 y tambien aprendimos a poner mensaje en la pantalla cuando se abra la paguna o cuando se le de click 
 a boton*/
